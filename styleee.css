@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff8f5;
+  color: #2e2e2e;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+.btn {
+  background-color: #e75480;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(231, 84, 120, 0.3);
+}
+.btn a {
+  background-color: #e75480;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(231, 84, 120, 0.3);
+}

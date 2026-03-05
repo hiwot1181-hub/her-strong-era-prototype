@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff8f5;
+  color: #2e2e2e;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: linear-gradient(135deg, #f8c8dc, #fff8f5);
+  box-shadow: 0 4px 15px rgba(231, 84, 128, 0.15);
+}
+.logo {
+  font-family: serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #a64d79;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #a64d79;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+.nav-links a:hover {
+  color: #e75480;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #fff8f5 0%, #f8c8dc 100%);
+
+  padding: 120px 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  color: #a64d79;
+  font-family: serif;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.primary-btn {
+  background-color: #e75480;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(231, 84, 120, 0.3);
+}
+.primary-btn :hover {
+  background-color: #a64d79;
+  transform: scale(1.05);
+}
+.about-preview {
+  text-align: center;
+  padding: 80px 20px;
+}
+.about-preview h2 {
+  font-family: serif;
+  font-size: 36px;
+  color: #a64d79;
+  margin-bottom: 20px;
+}
+.about-preview a:hover {
+  color: #a64d79;
+}
+.Workouts {
+  padding: 80px 40px;
+  background-color: #fff0f6;
+  text-align: center;
+}
+.Workouts h2 {
+  font-family: serif;
+  font-size: 36px;
+  color: #a64d79;
+  margin-bottom: 50px;
+}
+.workout-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 250px;
+  font-weight: 600;
+  color: #a64d79;
+  box-shadow: 0 10px 25px rgba(231, 84, 128, 0.15);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(231, 84, 128, 0.25);
+}
+footer {
+  background-color: #a64d79;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
